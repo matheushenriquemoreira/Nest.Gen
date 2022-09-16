@@ -1,0 +1,31 @@
+    //2- Faça um programa que entre com três números e coloque em ordem crescente.
+    const prompt = require("prompt-sync")()
+    
+     const num1 = Number(prompt("Digite um numero:"))
+     const num2 = Number(prompt("Digite outro numero:"))
+     const num3 = Number(prompt("Digite o ultimo numero:"))
+    
+
+    if (num1 > num2 && num2 > num3) {
+      console.log(`${num1} ${num2} ${num}`)
+    }else if (num2 > num1 && num1 > num3){
+      console.log(`${num2} ${num1} ${num3}`)
+    }else if (num3 > num1 && num1 > num2){
+      console.log(`${num3} ${num1} ${num2}`)
+    }else if (num1 > num3 && num3 > num2){
+      console.log(`${num1} ${num3} ${num2}`)
+    }else if (num2 > num3 && num3 > num1){
+      console.log(`${num2} ${num3} ${num1}`)
+    }else{
+        console.log(`${num3} ${num2} ${num1}`)
+    }
+
+
+
+    
+
+
+
+
+
+
